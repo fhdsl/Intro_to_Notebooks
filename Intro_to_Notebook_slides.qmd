@@ -1,0 +1,130 @@
+---
+title: "Intro to Computational Notebooks"
+format: 
+  revealjs:
+    smaller: false
+    scrollable: true
+    echo: true
+output-location: fragment
+---
+
+## Welcome!
+
+## [Introductions](https://docs.google.com/document/d/1GryT6ZL1DwECk_0FkXx-YsEn0CLrjaRRqQzjIEzsioQ/edit?usp=sharing)
+
+-   Who am I?
+
+. . .
+
+-   What is DaSL?
+
+. . .
+
+-   Who are you?
+
+    -   Name, pronouns, group you work in
+
+    -   What you want to get out of the workshop
+
+    -   What is your current environment for coding?
+
+. . .
+
+We follow our participation guidelines [here](https://hutchdatascience.org/communitystudios/guidelines/).
+
+## Goals of the workshop
+
+-   **Describe** the motivation for using a Computing Notebook
+
+-   **Use** notebooks in Google Colab
+
+    -   Make use of text rendering and code cells
+
+    -   Make use of custom commands to interface with other products
+
+-   If time, Jupyter Notebook on Fred Hutch Cluster
+
+## Motivations - Documentation
+
+-   **Documentation** is the key to communicating your workflow and findings with your future self, collaborators, peers, and the general public:
+
+. . .
+
+-   "Do I understand and trust this data analysis?"
+
+. . .
+
+-   Computational notebooks intersperse the code *(the what)* with documentation behind your work *(the why)*
+
+. . .
+
+-   Does not prevent poor data analysis, but provides a basis for meaningful discussion and transparency.
+
+## Motivations - Reproducibility
+
+-   **Reproducibility**: a different analyst re-runs the analysis with the same code and same data and gets the same result.
+
+. . .
+
+-   Documentation and seqeuential code improves reproducbility, but there's more that can be done.
+
+## Types of Notebooks out there
+
+-   [Jupyter Lab, Jupyter Notebook](https://jupyter.org/try) ([difference described here](https://saturncloud.io/blog/what-is-the-difference-between-jupyter-notebook-and-jupyterlab/#:~:text=JupyterLab%20is%20designed%20to%20be,or%20themes%2C%20to%20your%20environment.))
+
+-   [Quarto Notebook](https://quarto.org/)
+
+-   [Google Colab](https://colab.research.google.com/)
+
+## Off to Google Colab!
+
+-   [Basic features guide](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
+
+-   [Our practice space](https://colab.research.google.com/drive/1OLfLnZe4UuYK2OsZRETfOTGf9QXAhAI0?usp=sharing)
+
+    -   Kernels
+
+    -   [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+    -   Rendering and Output
+
+## Special commands
+
+-   Accessing the command line (shell) via `!`
+
+-   [Magic commands](https://nbviewer.org/github/ipython/ipython/blob/1.x/examples/notebooks/Cell%20Magics.ipynb)
+
+-   [Debugger guide](https://zohaib.me/debugging-in-google-collab-notebook/)
+
+## Accessing Google Drive
+
+```         
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+## Explore: Notebook gallery
+
+<https://github.com/firmai/awesome-google-colab>
+
+-   Can you run it? Is it readable?
+
+-   Does it look reproducible?
+
+-   What do you like, and what do you dislike?
+
+## If there's time: Jupyter Lab on the Cluster
+
+-   [Log in](https://hutchdatascience.org/FH_Cluster_101/logging-in.html)
+
+-   [Interactive Session](https://hutchdatascience.org/FH_Cluster_101/interactive-session.html)
+
+-   [Using Jupyter on the Cluster](https://sciwiki.fredhutch.org/scicomputing/software_python/#using-jupyter-on-rhino)
+
+## What should we do next week?
+
+[Brainstorm here](https://docs.google.com/document/d/1GryT6ZL1DwECk_0FkXx-YsEn0CLrjaRRqQzjIEzsioQ/edit?usp=sharing).
+
+## How was the workshop for you today?
+
+[Short survey here.](https://forms.gle/9nboRpXvgSoiDJ8u8)
